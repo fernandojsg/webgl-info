@@ -67,7 +67,7 @@ return Object.assign(report, {
       fragmentShaderBestPrecision: getBestFloatPrecision(gl.FRAGMENT_SHADER, gl),
       fragmentShaderFloatIntPrecision: getFloatIntPrecision(gl),
       shadingLanguageVersion: gl.getParameter(gl.SHADING_LANGUAGE_VERSION)
-    }
+    },
     extensions: gl.getSupportedExtensions()
   });
 }
