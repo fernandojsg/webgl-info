@@ -1,0 +1,19 @@
+{
+  "name": "webgl-info",
+  "version": "0.1.0",
+  "description": "WebGL features info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandojsg/webgl-info.git"
+  },
+  "author": "Fernando Serrano <fernandojsg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandojsg/webgl-info/issues"
+  },
+  "homepage": "https://github.com/fernandojsg/webgl-info#readme"
+}
