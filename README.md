@@ -21,9 +21,9 @@ And you should get a report similar to the following one:
     "webgl1": {
         "webglVersion": 1,
         "contextName": "webgl",
-        "glVersion": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
-        "vendor": "WebKit",
-        "renderer": "WebKit WebGL",
+        "glVersion": "WebGL 1.0",
+        "vendor": "Mozilla",
+        "renderer": "Mozilla",
         "unMaskedVendor": "ATI Technologies Inc.",
         "unMaskedRenderer": "AMD Radeon Pro 560 OpenGL Engine",
         "angle": "No",
@@ -77,17 +77,16 @@ And you should get a report similar to the following one:
                 "best": "[-2^127, 2^127] (23)"
             },
             "fragmentShaderFloatIntPrecision": "highp/highp",
-            "shadingLanguageVersion": "WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)"
+            "shadingLanguageVersion": "WebGL GLSL ES 1.0"
         },
         "extensions": [
             "ANGLE_instanced_arrays",
             "EXT_blend_minmax",
             "EXT_color_buffer_half_float",
             "EXT_frag_depth",
+            "EXT_sRGB",
             "EXT_shader_texture_lod",
             "EXT_texture_filter_anisotropic",
-            "WEBKIT_EXT_texture_filter_anisotropic",
-            "EXT_sRGB",
             "OES_element_index_uint",
             "OES_standard_derivatives",
             "OES_texture_float",
@@ -97,23 +96,20 @@ And you should get a report similar to the following one:
             "OES_vertex_array_object",
             "WEBGL_color_buffer_float",
             "WEBGL_compressed_texture_s3tc",
-            "WEBKIT_WEBGL_compressed_texture_s3tc",
             "WEBGL_compressed_texture_s3tc_srgb",
             "WEBGL_debug_renderer_info",
             "WEBGL_debug_shaders",
             "WEBGL_depth_texture",
-            "WEBKIT_WEBGL_depth_texture",
             "WEBGL_draw_buffers",
-            "WEBGL_lose_context",
-            "WEBKIT_WEBGL_lose_context"
+            "WEBGL_lose_context"
         ]
     },
     "webgl2": {
         "webglVersion": 2,
         "contextName": "webgl2",
-        "glVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
-        "vendor": "WebKit",
-        "renderer": "WebKit WebGL",
+        "glVersion": "WebGL 2.0",
+        "vendor": "Mozilla",
+        "renderer": "Mozilla",
         "unMaskedVendor": "ATI Technologies Inc.",
         "unMaskedRenderer": "AMD Radeon Pro 560 OpenGL Engine",
         "angle": "No",
@@ -167,7 +163,7 @@ And you should get a report similar to the following one:
                 "best": "[-2^127, 2^127] (23)"
             },
             "fragmentShaderFloatIntPrecision": "highp/highp",
-            "shadingLanguageVersion": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)"
+            "shadingLanguageVersion": "WebGL GLSL ES 3.00"
         },
         "extensions": [
             "EXT_color_buffer_float",
