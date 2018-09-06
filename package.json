@@ -1,6 +1,6 @@
 {
   "name": "webgl-info",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "WebGL features info",
   "main": "dist/webgl-info.js",
   "module": "dist/webgl-info.module.js",
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/fernandojsg/webgl-info/issues"
   },
-  "homepage": "https://github.com/fernandojsg/webgl-info#readme",
+  "homepage": "https://github.com/fernandojsg/webgl-info#readme"
 }
