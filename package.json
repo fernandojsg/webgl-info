@@ -1,6 +1,6 @@
 {
   "name": "webgl-info",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "WebGL features info",
   "main": "dist/webgl-info.js",
   "module": "dist/webgl-info.module.js",
