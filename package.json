@@ -2,10 +2,10 @@
   "name": "webgl-info",
   "version": "0.1.1",
   "description": "WebGL features info",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "dist/webgl-info.js",
+  "module": "dist/webgl-info.module.js",
+  "source": "src/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fernandojsg/webgl-info.git"
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/fernandojsg/webgl-info/issues"
   },
-  "homepage": "https://github.com/fernandojsg/webgl-info#readme"
+  "homepage": "https://github.com/fernandojsg/webgl-info#readme",
 }

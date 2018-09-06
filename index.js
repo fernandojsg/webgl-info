@@ -206,7 +206,7 @@ function getFloatIntPrecision(gl) {
 
 module.exports = function() {
   return {
-    webgl1: getWebGLInfoByVersion(1),
     webgl2: getWebGLInfoByVersion(2)
+    webgl1: getWebGLInfoByVersion(1),
   }
 }
